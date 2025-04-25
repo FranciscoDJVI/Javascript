@@ -1,15 +1,18 @@
 import "./App.css";
-import MyTitle from "./MyTitle";
-import Mybutton from "./Mybutton";
-import MypresentationText from "./PresentationText";
-import MyAvatar from "./Avatar";
+import PrincipalTitle from "./components/PricipalTitle";
+import Avatar from "./components/Avatar";
+import TextPresentation from "./components/TextPresentation";
+import Links from "./components/Links";
+import FormContact from "./components/FormContact";
 
 function App() {
   return (
-    <div>
-      <MyTitle />
-      <MyAvatar />
-      <MypresentationText />
+    <div className="main">
+      <PrincipalTitle />
+      <Avatar />
+      <TextPresentation />
+      <Links />
+      <FormContact />
     </div>
   );
 }

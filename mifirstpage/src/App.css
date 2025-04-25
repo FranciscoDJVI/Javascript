@@ -37,20 +37,40 @@
   }
 }
 
-.mititle {
+.main {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+}
+.avatar img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.formcontact form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.formcontact form input {
   margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
 }
-.avatar {
-  border-radius: 100%;
-  width: 5vw;
-  height: 10vh;
-  position: absolute;
-  left: 50%;
-  margin-bottom: 20px;
-  transform: translate(-50%, -50%);
+.formcontact form textarea {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
 }
-.divpresentation {
-  margin-top: 50px;
+.formcontact form button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: #000000;
+  border: none;
 }
