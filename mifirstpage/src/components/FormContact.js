@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import "../App.css";
 
+const StyleFormaContact = {
+  textAlign: "center",
+  fontStyle: "italic",
+  fontWeight: "bold",
+};
+
 function FormContact() {
   const [inputValue, setInputValue] = useState("");
   const [TextareaValue, setTextareatValue] = useState("");
@@ -24,7 +30,7 @@ function FormContact() {
   return (
     <div className="formcontact">
       <form>
-        <span>Formulario de contacto</span>
+        <span style={StyleFormaContact}>Formulario de contacto</span>
         <input
           type="input"
           placeholder="example@example.com"
