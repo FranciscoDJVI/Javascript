@@ -6,11 +6,13 @@ const StyleDivProjects = {
   flexWrap: "wrap",
   marginLeft: "25%",
   marginRight: "25%",
+  padding: "10px",
 };
 
 function MyProjects() {
   return (
     <div className="myprojects-div" style={StyleDivProjects}>
+      <DeployProject />,
       <DeployProject />,
       <DeployProject />,
     </div>

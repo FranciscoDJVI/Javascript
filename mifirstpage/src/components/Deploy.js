@@ -3,10 +3,12 @@ import ProjectsImage from "/home/francisco/Workspace_2/Javascript/mifirstpage/sr
 
 const Items = [1];
 const StyleContainerDeploy = {
-  border: "1px solid black",
+  boxShadow: "0 0 2px 2px hsl(120deg 30% 20%)",
   padding: "10px",
   fontFamily: "Arial, sans-serif",
   textAlign: "center",
+  margin: "5px",
+  color: "#f0f0f0",
 };
 
 const StyleImage = {

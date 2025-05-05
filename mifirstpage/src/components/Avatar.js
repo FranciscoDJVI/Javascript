@@ -5,14 +5,23 @@ import Avatar from "/home/francisco/Workspace_2/Javascript/mifirstpage/src/asset
 const user = {
   name: "Francisco Vanegas",
   image: Avatar,
-  imageSize: 90,
 };
 
 function AvatarImage() {
   return (
     <div className="avatar">
-      <h1>{user.name}</h1>
-      <img src={user.image} alt="My personal photo" />
+      <h1 style={{ color: "silver", textTransform: "uppercase" }}>
+        {user.name}
+      </h1>
+      <img
+        src={user.image}
+        alt="My screen"
+        style={{
+          width: "200px",
+          borderRadius: "25px",
+          boxShadow: "0 0 2px 2px #ffffff",
+        }}
+      ></img>
     </div>
   );
 }
