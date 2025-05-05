@@ -10,7 +10,7 @@ function Footer() {
         backgroundColor: "#f1f1f1",
       }}
     >
-      <p>© 2023 Francisco Vanegas. Desarrollador python Jr</p>
+      <p>© 2025 Francisco Vanegas. Desarrollador python Jr</p>
       <p>All rights reserved</p>
     </footer>
   );

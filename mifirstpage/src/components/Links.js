@@ -6,6 +6,15 @@ const StyeLinks = {
   flexWrap: "wrap",
   alignItems: "center",
   justifyContent: "center",
+  color: "#ffffff",
+};
+
+const StyleA = {
+  padding: "5px",
+  background: "#f0f0f0",
+  color: "#000000",
+  borderRadius: "25px",
+  margin: "5px",
 };
 
 function Links() {
@@ -17,6 +26,7 @@ function Links() {
         href="https://github.com/FranciscoDJVI"
         target="_blank"
         rel="noopener noreferrer"
+        style={StyleA}
       >
         Github
       </a>
@@ -24,6 +34,7 @@ function Links() {
         href="https://github.com/FranciscoDJVI"
         target="_blank"
         rel="noopener noreferrer"
+        style={StyleA}
       >
         Github
       </a>
