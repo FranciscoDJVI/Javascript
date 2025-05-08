@@ -4,12 +4,15 @@ function TextPresentation() {
   return (
     <p
       style={{
+        width: "40vw",
         fontSize: "20px",
-        margin: "20px",
+        textAlign: "justify",
+        marginLeft: "150px",
+        marginRight: "150px",
+        marginTop: "100px",
+        marginBottom: "150px",
         fontFamily: "Arial",
         color: "silver",
-        fontWeight: "bold",
-        textShadow: "1px 1px 2px #ffffff",
       }}
     >
       Wellcome to my page. I'm a python Jr developer an this my page made with

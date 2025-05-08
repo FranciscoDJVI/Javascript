@@ -37,6 +37,7 @@ function DeployProject() {
     <div className="deploy" style={StyleContainerDeploy}>
       <img src={ProjectsImage} alt="Deployimage" style={StyleImage} />
       <h5>Finished {OptionDeploy()}</h5>
+      <p>This project is about stock page</p>
     </div>
   );
 }

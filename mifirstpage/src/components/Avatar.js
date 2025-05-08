@@ -17,8 +17,10 @@ function AvatarImage() {
         src={user.image}
         alt="My screen"
         style={{
+          marginTop: "50px",
           width: "200px",
-          borderRadius: "25px",
+          height: "200px",
+          borderRadius: "100%",
           boxShadow: "0 0 2px 2px #ffffff",
         }}
       ></img>

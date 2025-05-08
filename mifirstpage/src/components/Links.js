@@ -2,7 +2,7 @@ import React from "react";
 
 const StyeLinks = {
   display: "flex",
-  flexDirection: "column",
+  flexDirection: "row",
   flexWrap: "wrap",
   alignItems: "center",
   justifyContent: "center",
@@ -13,8 +13,9 @@ const StyleA = {
   padding: "5px",
   background: "#f0f0f0",
   color: "#000000",
-  borderRadius: "25px",
+  borderRadius: "10px",
   margin: "5px",
+  pading: "10px",
 };
 
 function Links() {
@@ -31,12 +32,12 @@ function Links() {
         Github
       </a>
       <a
-        href="https://github.com/FranciscoDJVI"
+        href="https://www.linkedin.com/in/francisco-vanegas-134522229/"
         target="_blank"
         rel="noopener noreferrer"
         style={StyleA}
       >
-        Github
+        linkedin
       </a>
     </div>
   );

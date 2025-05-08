@@ -5,8 +5,10 @@ function Footer() {
     <footer
       style={{
         textAlign: "center",
-        padding: "20px",
+        padding: "15x",
         width: "100%",
+        position: "relative",
+        top: "100%",
         backgroundColor: "#f1f1f1",
       }}
     >
