@@ -193,3 +193,25 @@ console.log(myArrayConvertSet);
 
 let mySetArray = new Set(myArrayConvertSet);
 console.log(mySetArray);
+
+// Maps (colecciión de elementos)
+// keys
+// values
+let myMap = new Map();
+console.log(myMap);
+
+// Inicialización
+myMap = new Map([
+  ["name", "Francisco"],
+  ["lastname", "Vanegas"],
+  ["email", "vanegasfrancisco@gmail.com"],
+  ["age", 29],
+]);
+console.log(myMap);
+
+// Metodos y procedimientos
+// Set
+
+myMap.set("alias", "FranV");
+myMap.set("name", "Francisco De jesus");
+console.log(myMap);
