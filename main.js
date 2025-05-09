@@ -215,3 +215,37 @@ console.log(myMap);
 myMap.set("alias", "FranV");
 myMap.set("name", "Francisco De jesus");
 console.log(myMap);
+
+// Get
+
+console.log(myMap.get("name"));
+
+// Has
+
+console.log(myMap.has("surname"));
+
+// keys
+
+console.log(myMap.keys());
+
+// Values
+
+console.log(myMap.values());
+
+// entries
+
+console.log(myMap.entries());
+
+// size
+
+console.log(myMap.size);
+
+// delete
+
+myMap.delete("age");
+console.log(myMap);
+
+// clear
+
+myMap.clear();
+console.log(myMap);
