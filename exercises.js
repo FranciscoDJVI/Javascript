@@ -1,3 +1,4 @@
+// Ejercicios de array, set y map.
 console.log("añadiendo 5 elementos en un array");
 let animalArray = ["cat", "dog", "tiger", "lion", "dolphin"];
 console.log(animalArray);
@@ -55,3 +56,46 @@ console.log(newSet);
 let newMap = new Map([["data", newSet]]);
 
 console.log(newMap);
+
+// Ejercicios de bucles.
+
+console.log("Imprimiendo numeros del 1 al 20 con diferentes bucles");
+console.log("bulce for");
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+console.log("bucle while");
+let i = 0;
+while (i < 10) {
+  console.log(i);
+  i++;
+}
+
+console.log(
+  "Sumando numeros del 1 al 100 y mostrando los resultados con bucles",
+);
+console.log("bucle for");
+for (let i = 0; i < 100; i++) {
+  console.log(i + i);
+}
+console.log("bucle while");
+while (i < 100) {
+  console.log(i + i);
+  i++;
+}
+
+console.log("mostrando los numeros pares entre 1 y 50 con bucles");
+console.log("bucle for");
+for (let i = 0; i < 50; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+}
+console.log("bucle while");
+i = 0;
+while (i < 50) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+  i++;
+}
