@@ -5,6 +5,7 @@ import Links from "./components/Links";
 import MyProjects from "./components/MyProjects";
 import FormContact from "./components/FormContact";
 import Footer from "./components/footer";
+import Skill from "./components/skill";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <TextPresentation />,
       <Links />,
       <MyProjects />,
+      <Skill />,
       <FormContact />,
       <Footer />,
     </div>
