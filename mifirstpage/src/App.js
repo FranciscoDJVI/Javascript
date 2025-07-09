@@ -10,13 +10,7 @@ import Skill from "./components/skill";
 function App() {
   return (
     <div className="main">
-      <AvatarImage />,
-      <TextPresentation />,
-      <Links />,
-      <MyProjects />,
-      <Skill />,
-      <FormContact />,
-      <Footer />,
+      <h1>Hola</h1>
     </div>
   );
 }
