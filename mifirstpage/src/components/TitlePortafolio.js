@@ -4,7 +4,7 @@ import React from "react";
 function TittlePortafio() {
   return (
     <div className="title">
-      <h1>Francisco Vanegas</h1>
+      <h1>Francisco Vanegas Ibarguen</h1>
     </div>
   );
 }
