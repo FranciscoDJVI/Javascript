@@ -1,23 +1,25 @@
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import TitlePortafolio from "./components/TitlePortafolio";
 import PresentationText from "./components/PresentationText";
 import NavBar from "./components/NavBar";
 import Estudies from "./components/Estudios";
 import Avatar from "./components/Avatar";
 import Skills from "./components/Skills";
+import ProjectsPersonal from "./components/ProjectsPersonal";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="portfolio">
-      <NavBar />
-      <div className="header">
-        <TitlePortafolio />
-        <Avatar />
-      </div>
-      <PresentationText />
-      <Estudies />
-      <Skills />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/portafolio" element={<TitlePortafolio />} />
+      <Route path="/avatar" element={<Avatar />} />
+      <Route path="/presentation" element={<PresentationText />} />
+      <Route path="/stuides" element={<Estudies />} />
+      <Route path="/skills" element={<Skills />} />
+      <Route path="/projects" element={<ProjectsPersonal />} />
+    </Routes>
   );
 }
 

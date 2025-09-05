@@ -7,7 +7,6 @@ body {
   align-items: center;
   justify-content: center;
   font-family: Arial, sans-serif;
-  background-color: #000000;
   flex-wrap: wrap;
 }
 
@@ -19,13 +18,12 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  color: white;
   border: 1px solid white;
 }
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   border-bottom: 1px solid black;
   height: 80px;
@@ -37,8 +35,8 @@ body {
 }
 
 img {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   margin-right: 20px;
 }
 
@@ -53,7 +51,6 @@ a {
   margin: 20px;
   font-size: 1rem;
   text-decoration: none;
-  color: white;
 }
 
 .presentation-text p {
@@ -67,4 +64,14 @@ a {
 }
 
 .skills ul {
+  text-decoration: none;
+}
+.projects-psys {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.projects-personal img {
+  width: 200px;
+  height: 200px;
 }
