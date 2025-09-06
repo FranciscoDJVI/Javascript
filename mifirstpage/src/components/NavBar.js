@@ -1,19 +1,29 @@
-import React from "react";
-import link from "react-router-dom";
+import { Link } from "react-router-dom";
+
+const customStyleNavbar = {
+  textDecoration: "none",
+  margin: "10px",
+  color: "#000000",
+};
 
 function NavBar() {
-  function Alertss() {
-    alert("has hecho clicl en algun sitio del navbar");
-  }
   return (
     <nav className="navbar">
-      <a href="home" onClick={Alertss}>
+      <Link style={customStyleNavbar} to="/">
         Home
-      </a>
-      <link to="/presentation">Pesentacion</link>
-      <a href="studies">Estudios</a>
-      <a href="skills">Skils</a>
-      <a href="projects">Proyectos</a>
+      </Link>
+      <Link style={customStyleNavbar} to="/presentation">
+        presentacion
+      </Link>
+      <Link style={customStyleNavbar} to="/estudies">
+        Estudios
+      </Link>
+      <Link style={customStyleNavbar} to="/skills">
+        Skils
+      </Link>
+      <Link style={customStyleNavbar} to="/projects">
+        Proyectos
+      </Link>
     </nav>
   );
 }

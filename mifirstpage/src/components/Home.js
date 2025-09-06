@@ -9,7 +9,7 @@ import ProjectsPersonal from "./ProjectsPersonal";
 
 function Home() {
   return (
-    <div>
+    <div className="container">
       <NavBar />
       <TitlePortafolio />
       <Avatar />

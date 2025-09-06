@@ -1,77 +1,88 @@
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: Arial, sans-serif;
-  flex-wrap: wrap;
-}
-
-.portfolio {
-  margin-top: 20px;
-  width: auto;
-  height: auto;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: 1px solid white;
-}
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
-  border-bottom: 1px solid black;
-  height: 80px;
-  padding: 10px;
-  margin: 20px;
-}
-.title {
-  font-size: "50px";
+  font-family: "Arial";
 }
 
-img {
-  width: 100px;
-  height: 100px;
+.container {
+  width: 1500px;
+  margin-top: 40px;
+  margin-left: 20px;
   margin-right: 20px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  background: #e4e4e7;
 }
-
 .navbar {
-  display: flex;
-  flex-direction: col;
-  justify-content: end;
-  margin-right: 20px;
+  margin: 10px;
+  margin-bottom: 200px;
+  font-size: 2rem;
 }
 
-a {
-  margin: 20px;
-  font-size: 1rem;
-  text-decoration: none;
+.title {
+  font-size: 3rem;
+  margin-top: 100px;
 }
 
-.presentation-text p {
+.avatar-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 5px #000000;
+  margin: 30px;
+}
+
+.presentation-text {
   text-align: justify;
-  padding: 20px;
+  font-size: 2rem;
+  border: 1px solid #000000;
+  padding: 50px;
+  margin: 20px;
+  margin-bottom: 500px;
+  font-style: italic;
+}
+
+.studies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.estudies-li {
+  font-size: 2rem;
+  font-style: none;
+  margin-bottom: 500px;
+  font-style: italic;
 }
 
 .skills {
-  margin: 20px;
-  padding: 20px;
+  margin-bottom: 500px;
 }
 
-.skills ul {
-  text-decoration: none;
+ol li {
+  font-size: 1rem;
+  font-style: italic;
 }
+
+.projects-personal {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 500px;
+}
+
 .projects-psys {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-.projects-personal img {
-  width: 200px;
-  height: 200px;
+  justify-content: center;
+  align-content: center;
 }
