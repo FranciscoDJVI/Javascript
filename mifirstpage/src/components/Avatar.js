@@ -7,7 +7,7 @@ const customStyle = {
   marginBottom: "500px",
   fontSize: "2rem",
   borderRadius: "24px",
-  border: "3px #000000 solid",
+  boxShadow: "0 0 2px 2px #ffffff",
 };
 
 function Avatar() {

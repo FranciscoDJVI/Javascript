@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 
 const CustomTitleStyle = {
   fontWeight: "200",
+  textShadow: "0 0 3px #000000",
 };
 function TittlePortafio() {
   return (
