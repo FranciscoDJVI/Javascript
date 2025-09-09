@@ -1,4 +1,3 @@
-import React from "react";
 import avatar from "../assets/images/avatar.jpg";
 
 const customStyle = {
@@ -7,8 +6,8 @@ const customStyle = {
   alignItems: "center",
   marginBottom: "500px",
   fontSize: "2rem",
-  borderRadius: "25px",
-  background: "#e4e4e7",
+  borderRadius: "24px",
+  border: "3px #000000 solid",
 };
 
 function Avatar() {

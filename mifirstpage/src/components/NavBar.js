@@ -1,27 +1,29 @@
 import { Link } from "react-router-dom";
 
-const customStyleNavbar = {
+const customStyleLink = {
   textDecoration: "none",
   margin: "10px",
-  color: "#00ffff",
+  color: "#000000",
+  fontSize: "3rem",
+  textShadow: "0 0 3px #000000 ",
 };
 
 function NavBar() {
   return (
     <nav className="navbar">
-      <Link style={customStyleNavbar} to="/">
+      <Link style={customStyleLink} to="/">
         Home
       </Link>
-      <Link style={customStyleNavbar} to="/presentation">
-        presentacion
+      <Link style={customStyleLink} to="/presentation">
+        Presentacion
       </Link>
-      <Link style={customStyleNavbar} to="/estudies">
+      <Link style={customStyleLink} to="/estudies">
         Estudios
       </Link>
-      <Link style={customStyleNavbar} to="/skills">
+      <Link style={customStyleLink} to="/skills">
         Skils
       </Link>
-      <Link style={customStyleNavbar} to="/projects">
+      <Link style={customStyleLink} to="/projects">
         Proyectos
       </Link>
     </nav>

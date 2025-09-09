@@ -1,4 +1,3 @@
-import React from "react";
 import psys1 from "../assets/images/psys_1.jpg";
 import psys2 from "../assets/images/psys_2.jpg";
 import psys3 from "../assets/images/psys_3.jpg";
@@ -15,7 +14,6 @@ const customStyle = {
 };
 
 const customStyleSection = {
-  background: "#000000",
   display: "flex",
   flexDirection: "row",
   flexWrap: "wrap",
@@ -44,6 +42,13 @@ function ProjectsPersonal() {
         <img style={customStyle} src={psys6} alt="psys_6" />
         <img style={customStyle} src={psys7} alt="psys_7" />
         <img style={customStyle} src={psys8} alt="psys_8" />
+        <a
+          href="https://github.com/FranciscoDJVI/work-personal"
+          target="_blank"
+          rel="nooponer noreferrer"
+        >
+          Psys
+        </a>
       </section>
     </div>
   );

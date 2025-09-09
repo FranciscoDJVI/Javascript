@@ -4,7 +4,8 @@ body {
   flex-wrap: wrap;
   justify-items: center;
   align-items: center;
-  font-family: "Arial";
+  font-family: "Cantarell";
+  background: var(--principal-color);
 }
 
 .container {
@@ -18,7 +19,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-items: center;
-  background: #e4e4e7;
+  background: var(--secondary-color);
 }
 .navbar {
   margin: 10px;
@@ -32,10 +33,10 @@ body {
 }
 
 .avatar-img {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
+  width: 400px;
+  height: 400px;
   margin: 30px;
+  border-radius: 64px;
 }
 
 .presentation-text {
@@ -44,8 +45,7 @@ body {
   border: 1px solid #000000;
   padding: 50px;
   margin: 20px;
-  margin-bottom: 500px;
-  font-style: italic;
+  margin-bottom: var(--margin-bottom-principal);
 }
 
 .studies {
@@ -56,17 +56,16 @@ body {
 .estudies-li {
   font-size: 2rem;
   font-style: none;
-  margin-bottom: 500px;
+  margin-bottom: var(--margin-bottom-principal);
   font-style: italic;
 }
 
 .skills {
-  margin-bottom: 500px;
+  margin-bottom: var(--margin-bottom-principal);
 }
 
 ol li {
   font-size: 1rem;
-  font-style: italic;
 }
 
 .projects-personal {
@@ -75,7 +74,7 @@ ol li {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 500px;
+  margin-bottom: var(--margin-bottom-principal);
 }
 
 .projects-psys {

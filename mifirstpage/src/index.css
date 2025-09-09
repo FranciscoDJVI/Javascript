@@ -1,3 +1,11 @@
+:root {
+  --principal-color: #000000;
+  --secondary-color: #b3adab;
+  --font-size-principal: 2rem;
+  --font-size-secondary: 1rem;
+  --margin-bottom-principal: 500px;
+}
+
 body {
   margin: 0;
   font-family:
