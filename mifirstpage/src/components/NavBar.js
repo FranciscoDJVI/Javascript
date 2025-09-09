@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const customStyleNavbar = {
   textDecoration: "none",
   margin: "10px",
-  color: "#000000",
+  color: "#00ffff",
 };
 
 function NavBar() {
