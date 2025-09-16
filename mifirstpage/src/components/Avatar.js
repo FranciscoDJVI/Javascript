@@ -1,4 +1,5 @@
 import avatar from "../assets/images/avatar.jpg";
+import { motion } from "motion/react";
 
 const customStyle = {
   display: "flex",
@@ -13,8 +14,20 @@ const customStyle = {
 function Avatar() {
   return (
     <div clasName="avatar" style={customStyle}>
-      <img className="avatar-img" src={avatar} alt="Avatar" />
-      <ol style={{ margin: "20px" }}>
+      <motion.img
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+        className="avatar-img"
+        src={avatar}
+        alt="Avatar"
+      ></motion.img>
+      <motion.ol
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+        style={{ margin: "20px" }}
+      >
         <li style={{ fontSize: "2rem", fontStyle: "none" }}>
           <a
             style={{ textDecoration: "none", color: "#000000" }}
@@ -35,7 +48,7 @@ function Avatar() {
             Linkedin
           </a>
         </li>
-      </ol>
+      </motion.ol>
     </div>
   );
 }
