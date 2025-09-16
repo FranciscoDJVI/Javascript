@@ -11,9 +11,6 @@ const customStyleLink = {
 function NavBar() {
   return (
     <nav className="navbar">
-      <Link style={customStyleLink} to="/">
-        Home
-      </Link>
       <Link style={customStyleLink} to="/presentation">
         Presentacion
       </Link>
