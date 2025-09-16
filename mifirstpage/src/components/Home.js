@@ -1,4 +1,4 @@
-import Rect from "react";
+import FadeInSection from "./FadeInsection";
 import TitlePortafolio from "./TitlePortafolio";
 import PresentationText from "./PresentationText";
 import NavBar from "./NavBar";
@@ -13,10 +13,18 @@ function Home() {
       <NavBar />
       <TitlePortafolio />
       <Avatar />
-      <PresentationText />
-      <Estudies />
-      <Skills />
-      <ProjectsPersonal />
+      <FadeInSection>
+        <PresentationText />
+      </FadeInSection>
+      <FadeInSection>
+        <Estudies />
+      </FadeInSection>
+      <FadeInSection>
+        <Skills />
+      </FadeInSection>
+      <FadeInSection>
+        <ProjectsPersonal />
+      </FadeInSection>
     </div>
   );
 }

@@ -4,7 +4,7 @@ const customStyleLink = {
   textDecoration: "none",
   margin: "10px",
   color: "#000000",
-  fontSize: "3rem",
+  fontSize: "2rem",
   textShadow: "0 0 3px #000000 ",
 };
 

@@ -18,7 +18,6 @@ const customStyleSection = {
   flexDirection: "row",
   flexWrap: "wrap",
 };
-
 function ProjectsPersonal() {
   return (
     <div className="projects-personal">
@@ -42,14 +41,15 @@ function ProjectsPersonal() {
         <img style={customStyle} src={psys6} alt="psys_6" />
         <img style={customStyle} src={psys7} alt="psys_7" />
         <img style={customStyle} src={psys8} alt="psys_8" />
-        <a
-          href="https://github.com/FranciscoDJVI/work-personal"
-          target="_blank"
-          rel="nooponer noreferrer"
-        >
-          Psys
-        </a>
       </section>
+      <a
+        href="https://github.com/FranciscoDJVI/work-personal"
+        target="_blank"
+        rel="nooponer noreferrer"
+        style={{ fontSize: "2rem", textDecoration: "none", color: "#000000" }}
+      >
+        Psys
+      </a>
     </div>
   );
 }
