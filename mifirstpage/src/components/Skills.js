@@ -1,6 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+const customStyleli = {
+  fontSize: "2rem",
+  margin: "30px",
+  background: "var(--principal-color)",
+  padding: "10px",
+  border: "10px var(--principal-color) solid",
+};
 const skills = [
   "Python",
   "Javascript",
@@ -32,19 +39,29 @@ const itemVariants = {
 function Skills() {
   return (
     <div className="skills">
+      <h2 style={{ fontSize: "2rem", marginBottom: "3rem" }}>Skill</h2>
       <div>
-        <h2 style={{ fontSize: "2rem", marginBottom: "3rem" }}>Skill</h2>
-        <motion.ol variants={containerVarinats} initial="hidden" animate="show">
+        <motion.ul
+          variants={containerVarinats}
+          initial="hidden"
+          animate="show"
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            gap: "4",
+            listStyleType: "none",
+          }}
+        >
           {skills.map((skill, index) => (
             <motion.li
-              style={{ fontSize: "2rem" }}
+              style={customStyleli}
               key={index}
               variants={itemVariants}
             >
               {skill}
             </motion.li>
           ))}
-        </motion.ol>
+        </motion.ul>
       </div>
     </div>
   );
