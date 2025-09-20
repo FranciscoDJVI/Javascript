@@ -11,32 +11,21 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-/*const customStyleImg = {
-  width: "300px",
-  height: "300px",
-  margin: "10px",
-};
+const ProjectPersonal = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
+  const customStyleImg = { width: "1200px", height: "700px" };
 
-const customStyleSection = {
-  display: "flex",
-  flexDirection: "row",
-  flexWrap: "wrap",
-};
-function ProjectsPersonal() {
   return (
-    <div className="projects-personal">
-      <span style={{ fontSize: "2rem" }}>Psys</span>
-      <p
-        style={{
-          fontSize: "2rem",
-          textAlign: "justify",
-        }}
-      >
-        PsysMsql es una aplicación web completa de gestión de ventas
-        desarrollada con Django que permite administrar productos, stock, ventas
-        y usuarios con diferentes roles y permisos.
-      </p>
-      <section className="projects-psys" style={customStyleSection}>
+    <div style={{ maxWidth: "1200px", margin: "auto" }}>
+      <Slider {...settings}>
         <div>
           <img style={customStyleImg} src={psys1} alt="psys_1" />
         </div>
@@ -61,7 +50,7 @@ function ProjectsPersonal() {
         <div>
           <img style={customStyleImg} src={psys8} alt="psys_8" />
         </div>
-      </section>
+      </Slider>
       <a
         href="https://github.com/FranciscoDJVI/work-personal"
         target="_blank"
@@ -71,7 +60,7 @@ function ProjectsPersonal() {
           textDecoration: "none",
           color: "var(--secondary-color)",
           boxShadow: "3px 3px 20px #0d1b2a,-3px -3px 20px #babecc",
-          marginTop: "20px",
+          marginTop: "40px",
           padding: "20px",
           borderRadius: "15px",
         }}
@@ -79,47 +68,6 @@ function ProjectsPersonal() {
         Enlace-Github
       </a>
     </div>
-  );
-}
-*/
-
-const ProjectPersonal = () => {
-  const settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-  const customStyleImg = {};
-
-  return (
-    <Slider {...settings}>
-      <div>
-        <img style={customStyleImg} src={psys1} alt="psys_1" />
-      </div>
-      <div>
-        <img style={customStyleImg} src={psys2} alt="psys_2" />
-      </div>
-      <div>
-        <img style={customStyleImg} src={psys3} alt="psys_3" />
-      </div>
-      <div>
-        <img style={customStyleImg} src={psys4} alt="psys_4" />
-      </div>
-      <div>
-        <img style={customStyleImg} src={psys5} alt="psys_5" />
-      </div>
-      <div>
-        <img style={customStyleImg} src={psys6} alt="psys_6" />
-      </div>
-      <div>
-        <img style={customStyleImg} src={psys7} alt="psys_7" />
-      </div>
-      <div>
-        <img style={customStyleImg} src={psys8} alt="psys_8" />
-      </div>
-    </Slider>
   );
 };
 export default ProjectPersonal;
