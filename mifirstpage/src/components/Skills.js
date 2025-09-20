@@ -7,7 +7,7 @@ const customStyleli = {
   background: "var(--principal-color)",
   padding: "10px",
   border: "10px var(--principal-color) solid",
-  boxShadow: "5px 5px 10px #babecc, -5px -5px 10px #ffffff",
+  boxShadow: "3px 3px 20px #0d1b2a,-3px -3px 20px #babecc",
   borderRadius: "15px",
 };
 const skills = [

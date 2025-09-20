@@ -6,10 +6,10 @@ body {
   align-items: center;
   font-family: "Cantarell";
   background: var(--principal-color);
+  color: #dddddd;
 }
 
 .container {
-  width: 1500px;
   margin-left: 20px;
   margin-right: 20px;
   padding: 100px;
@@ -18,7 +18,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-items: center;
-  background: var(--secondary-color);
+  background: var(--principal-color);
 }
 .navbar {
   margin: 10px;
@@ -31,8 +31,8 @@ body {
   z-index: 1000;
   padding: 1rem;
   box-shadow:
-    5px 5px 10px #babecc,
-    -5px -5px 10px #ffffff;
+    5px 5px 10px #0d1b2a,
+    -5px -5px 10px #babecc;
   border-radius: 15px;
 }
 

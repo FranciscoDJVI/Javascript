@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 const customStyleLink = {
   textDecoration: "none",
   margin: "10px",
-  color: "#000000",
+  color: "#dddddd",
   fontSize: "2rem",
   textShadow: "0 0 3px #000000 ",
 };
 
-const customStyleNav ={
+const customStyleNav = {
   background: "var(--principal-color)",
-}
+};
 
 function NavBar() {
   return (

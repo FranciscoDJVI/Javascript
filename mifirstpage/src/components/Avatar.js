@@ -7,13 +7,11 @@ const customStyle = {
   alignItems: "center",
   marginBottom: "500px",
   fontSize: "2rem",
-  background: "var(--principal-color)",
   borderRadius: "24px",
-  boxShadow: "0 0 2px 2px #ffffff",
-  border: "5px var(--principal-color) solid",
   padding: "150px",
   marginTop: "100px",
-  boxShadow: "5px 5px 10px #babecc, -5px -5px 10px #ffffff",
+  color: "var(--secondary-color)",
+  boxShadow: "3px 3px 20px #0d1b2a,-3px -3px 20px #babecc",
 };
 
 function Avatar() {
@@ -36,7 +34,7 @@ function Avatar() {
       >
         <li style={{ fontSize: "2rem", fontStyle: "none" }}>
           <a
-            style={{ textDecoration: "none", color: "#000000" }}
+            style={{ textDecoration: "none", color: "var(--secondary-color)" }}
             href="https://github.com/FranciscoDJVI"
             target="_blank"
             rel="nooponer noreferrer"
@@ -46,7 +44,7 @@ function Avatar() {
         </li>
         <li style={{ fontSize: "2rem", fontStyle: "none" }}>
           <a
-            style={{ textDecoration: "none", color: "#000000" }}
+            style={{ textDecoration: "none", color: "var(--secondary-color)" }}
             href="https://www.linkedin.com/in/francisco-vanegas-134522229"
             target="_blank"
             rel="nooponer noreferrer"

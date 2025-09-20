@@ -1,9 +1,10 @@
 import { motion } from "motion/react";
 
 const customStylediv = {
-  background: "var(--principal-color)",
   borderRadius: "15px",
-  boxShadow: "5px 5px 10px #babecc, -5px -5px 10px #ffffff",
+  background: "var(--principal-color)",
+  boxShadow: "5px 5px 5px var(--principal-color)",
+  color: "var(--secondary-color)",
 };
 
 function PresentationText() {
