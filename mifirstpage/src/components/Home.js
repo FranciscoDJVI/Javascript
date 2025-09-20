@@ -1,5 +1,4 @@
 import FadeInSection from "./FadeInsection";
-import TitlePortafolio from "./TitlePortafolio";
 import PresentationText from "./PresentationText";
 import NavBar from "./NavBar";
 import Estudies from "./Estudios";

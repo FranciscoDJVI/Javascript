@@ -11,7 +11,6 @@ const customStyle = {
   padding: "150px",
   marginTop: "100px",
   color: "var(--secondary-color)",
-  boxShadow: "3px 3px 20px #0d1b2a,-3px -3px 20px #babecc",
 };
 
 function Avatar() {
