@@ -11,7 +11,6 @@ function Home() {
   return (
     <div className="container">
       <NavBar />
-      <TitlePortafolio />
       <Avatar />
       <FadeInSection>
         <PresentationText />

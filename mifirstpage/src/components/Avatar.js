@@ -7,13 +7,19 @@ const customStyle = {
   alignItems: "center",
   marginBottom: "500px",
   fontSize: "2rem",
+  background: "var(--principal-color)",
   borderRadius: "24px",
   boxShadow: "0 0 2px 2px #ffffff",
+  border: "5px var(--principal-color) solid",
+  padding: "150px",
+  marginTop: "100px",
+  boxShadow: "5px 5px 10px #babecc, -5px -5px 10px #ffffff",
 };
 
 function Avatar() {
   return (
     <div clasName="avatar" style={customStyle}>
+      <h2>Francisco Vanegas Ibarguen</h2>
       <motion.img
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
