@@ -1,9 +1,4 @@
 body {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-items: center;
-  align-items: center;
   font-family: "Cantarell";
   background: var(--principal-color);
   color: #dddddd;
