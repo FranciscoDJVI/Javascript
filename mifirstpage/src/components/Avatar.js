@@ -30,7 +30,7 @@ function Avatar() {
         style={{ margin: "20px" }}
       >
         {" "}
-        <li>Francisco Vanegas</li>
+        <h2>Francisco Vanegas</h2>
         <li style={{ fontSize: "2rem", fontStyle: "none" }}>
           <a
             style={{ textDecoration: "none", color: "var(--secondary-color)" }}
