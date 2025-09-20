@@ -10,9 +10,6 @@ body {
 }
 
 .container {
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 100px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
