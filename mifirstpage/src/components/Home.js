@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 import Estudies from "./Estudios";
 import Avatar from "./Avatar";
 import Skills from "./Skills";
-import ProjectsPersonal from "./ProjectsPersonal";
+import ProjectPersonal from "./ProjectsPersonal";
 
 function Home() {
   return (
@@ -22,7 +22,7 @@ function Home() {
         <Skills />
       </FadeInSection>
       <FadeInSection>
-        <ProjectsPersonal />
+        <ProjectPersonal />
       </FadeInSection>
     </div>
   );

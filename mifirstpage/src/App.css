@@ -76,18 +76,7 @@ ol li {
 }
 
 .projects-personal {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-bottom: var(--margin-bottom-principal);
 }
 
 .projects-psys {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
 }
