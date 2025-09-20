@@ -7,8 +7,8 @@ const customStyleli = {
   background: "var(--principal-color)",
   padding: "10px",
   border: "10px var(--principal-color) solid",
-  boxShadow:"5px 5px 10px #babecc, -5px -5px 10px #ffffff",
-  borderRadius:"15px",
+  boxShadow: "5px 5px 10px #babecc, -5px -5px 10px #ffffff",
+  borderRadius: "15px",
 };
 const skills = [
   "Python",
@@ -41,8 +41,22 @@ const itemVariants = {
 function Skills() {
   return (
     <div className="skills">
-      <h2 style={{ fontSize: "2rem", marginBottom: "3rem" }}>Skill</h2>
-      <div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyItems: "center",
+          alignItems: "center",
+        }}
+      >
+        <h2
+          style={{
+            fontSize: "3rem",
+            marginBottom: "3rem",
+          }}
+        >
+          Skills
+        </h2>
         <motion.ul
           variants={containerVarinats}
           initial="hidden"

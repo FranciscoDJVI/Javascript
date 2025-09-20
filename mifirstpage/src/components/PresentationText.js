@@ -1,9 +1,15 @@
-import React from "react";
 import { motion } from "motion/react";
+
+const customStylediv = {
+  border: "5px var(--principal-color) solid",
+  borderRadius: "15px",
+  boxShadow:
+    "5px 5px 10px var(--principal-color), -5px -5px -10px var(--secondary-color)",
+};
 
 function PresentationText() {
   return (
-    <div className="presentation-text">
+    <div className="presentation-text" style={customStylediv}>
       <motion.p
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
