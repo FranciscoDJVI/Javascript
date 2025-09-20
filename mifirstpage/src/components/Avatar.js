@@ -7,7 +7,6 @@ const customStyle = {
   alignItems: "center",
   marginBottom: "500px",
   fontSize: "2rem",
-  borderRadius: "24px",
   padding: "150px",
   marginTop: "100px",
   color: "var(--secondary-color)",
@@ -16,7 +15,7 @@ const customStyle = {
 function Avatar() {
   return (
     <div clasName="avatar" style={customStyle}>
-      <h2 style={{ fontSize: "1rem" }}>Francisco Vanegas Ibarguen</h2>
+      <h2 style={{ fontSize: "3rem" }}>Francisco Vanegas Ibarguen</h2>
       <motion.img
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
