@@ -1,4 +1,3 @@
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import FadeInSection from "./FadeInsection";
 import TitlePortafolio from "./TitlePortafolio";
 import PresentationText from "./PresentationText";
