@@ -24,7 +24,7 @@ const ProjectPersonal = () => {
   const customStyleImg = {};
 
   return (
-    <div style={{ maxWidth: "1080px", margin: "auto" }}>
+    <div style={{ maxWidth: "2040px", margin: "auto" }}>
       <h2
         style={{
           fontSize: "3rem",
