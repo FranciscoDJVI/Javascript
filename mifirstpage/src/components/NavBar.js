@@ -8,9 +8,13 @@ const customStyleLink = {
   textShadow: "0 0 3px #000000 ",
 };
 
+const customStyleNav ={
+  background: "var(--principal-color)",
+}
+
 function NavBar() {
   return (
-    <nav className="navbar">
+    <nav className="navbar" style={customStyleNav}>
       <Link style={customStyleLink} to="/presentation">
         Presentacion
       </Link>

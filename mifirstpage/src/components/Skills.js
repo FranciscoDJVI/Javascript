@@ -7,6 +7,8 @@ const customStyleli = {
   background: "var(--principal-color)",
   padding: "10px",
   border: "10px var(--principal-color) solid",
+  boxShadow:"5px 5px 10px #babecc, -5px -5px 10px #ffffff",
+  borderRadius:"15px",
 };
 const skills = [
   "Python",
@@ -25,7 +27,7 @@ const containerVarinats = {
   show: {
     opacity: 1,
     tansition: {
-      straggerChildren: 0.5, // Retrase de la animacion entre cada elmento hijo.
+      straggerChildren: 0.5, // Retraso de la animacion entre cada elmento hijo.
     },
   },
 };

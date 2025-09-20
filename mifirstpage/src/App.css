@@ -27,8 +27,12 @@ body {
   position: fixed;
   top: 0;
   left: 40%;
-  width: 100%;
+  width: fit-content;
   z-index: 1000;
+  padding: 1rem;
+  box-shadow:5px 5px 10px #babecc,
+             -5px -5px 10px #ffffff;
+  border-radius: 15px;
 }
 
 .title {
