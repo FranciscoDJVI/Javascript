@@ -16,7 +16,7 @@ const customStyle = {
 function Avatar() {
   return (
     <div clasName="avatar" style={customStyle}>
-      <h2>Francisco Vanegas Ibarguen</h2>
+      <h2 style={{ fontSize: "1rem" }}>Francisco Vanegas Ibarguen</h2>
       <motion.img
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
