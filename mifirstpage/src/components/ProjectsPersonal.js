@@ -25,7 +25,7 @@ const ProjectPersonal = () => {
 
   return (
     <div style={{ maxWidth: "1200px", margin: "auto" }}>
-      <Slider {...settings}>
+      <Slider {...settings} style={{ marginBottom: "40px" }}>
         <div>
           <img style={customStyleImg} src={psys1} alt="psys_1" />
         </div>
