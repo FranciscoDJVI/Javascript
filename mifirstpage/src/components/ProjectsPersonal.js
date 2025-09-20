@@ -25,6 +25,16 @@ const ProjectPersonal = () => {
 
   return (
     <div style={{ maxWidth: "1200px", margin: "auto" }}>
+      <h2
+        style={{
+          fontSize: "3rem",
+          position: "relative",
+          top: "50%",
+          transform: "traslate(-50%, -50%)",
+        }}
+      >
+        Proyectos
+      </h2>
       <Slider {...settings} style={{ marginBottom: "40px" }}>
         <div>
           <img style={customStyleImg} src={psys1} alt="psys_1" />
