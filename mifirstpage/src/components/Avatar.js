@@ -1,4 +1,4 @@
-import avatar from "../assets/images/avatar.jpg";
+import avatar from "../assets/images/avatar.webp";
 import { motion } from "motion/react";
 
 const customStyle = {
