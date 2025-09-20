@@ -21,7 +21,7 @@ const ProjectPersonal = () => {
     autoplay: true,
     autoplaySpeed: 3000,
   };
-  const customStyleImg = { width: "720px", height: "720px" };
+  const customStyleImg = {};
 
   return (
     <div style={{ maxWidth: "640px", margin: "auto" }}>
