@@ -73,6 +73,16 @@ ol li {
 
 /* Media queries para monitores grandes */
 @media (min-width: 1200px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
   .container {
     max-width: 1200px;
     padding: 32px;
@@ -92,6 +102,16 @@ ol li {
 
 /* Media queries para tablets */
 @media (max-width: 900px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
   .container {
     max-width: 90vw;
     padding: 16px;
@@ -126,6 +146,16 @@ ol li {
 
 /* Media queries para móviles */
 @media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
   .container {
     max-width: 100vw;
     padding: 8px;
@@ -160,6 +190,16 @@ ol li {
 
 
 @media (max-width: 360px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
   .container {
     max-width: 100vw;
     padding: 8px;
