@@ -3,7 +3,7 @@ body {
   background: var(--principal-color);
   color: #dddddd;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-items: center;
   margin: 10px;
@@ -71,7 +71,7 @@ ol li {
 @media (min-width: 1200px) {
   body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-items: center;
     margin: 10px;
@@ -176,10 +176,11 @@ ol li {
     margin: 0;
   }
   .estudies-li {
-    font-size: 10px;
+    font-size: 20px;
     margin-bottom: 60px;
   }
   .skills {
+    font-size: 20px;
     margin-bottom: 60px;
   }
 }
@@ -187,7 +188,7 @@ ol li {
 @media (min-width: 360px) {
   body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-items: center;
     margin: 10px;
@@ -220,19 +221,20 @@ ol li {
     height: 120px;
   }
   .presentation-text {
-    font-size: 10px;
+    font-size: 20px;
     padding: 0;
     margin: 0;
   }
   .estudies-li {
-    font-size: 10px;
+    font-size: 20px;
     margin-bottom: 60px;
   }
   .skills {
+    font-size: 20px;
     margin-bottom: 60px;
   }
   .projects {
-    width: 100%;
+    width: 50%;
     padding: 0;
     margin: 0;
   }
