@@ -29,7 +29,6 @@ function Avatar() {
         transition={{ duration: 0.5, ease: "easeOut" }}
         style={{ margin: "20px" }}
       >
-        {" "}
         <h2>Francisco Vanegas</h2>
         <li style={{ fontSize: "2rem", fontStyle: "none" }}>
           <a
